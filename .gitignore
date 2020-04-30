@@ -1,0 +1,8 @@
+
+.idea/.gitignore
+.idea/Suggest_Course.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+venv/
