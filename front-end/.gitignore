@@ -1,20 +1,3 @@
-
-.idea/.gitignore
-.idea/Suggest_Course.iml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-venv/
-node_modules/
-*.log
-*.pot
-*.pyc
-__pycache__/
-local_settings.py
-db.sqlite3
-media
-secret.py
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
