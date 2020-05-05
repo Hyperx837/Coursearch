@@ -17,5 +17,5 @@ class CourseItem(scrapy.Item):
     instructors = scrapy.Field()
     title = scrapy.Field()
     description = scrapy.Field()
-    subscribers = scrapy.Field()
+    students = scrapy.Field()
 

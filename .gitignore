@@ -9,8 +9,7 @@ local_settings.py
 db.sqlite3
 media
 secret.py
-courses.json
-x.html
+scraper/courses.json
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies

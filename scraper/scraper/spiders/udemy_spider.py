@@ -5,7 +5,7 @@ from ..items import CourseItem
 
 
 class CourseScraper(scrapy.Spider):
-    name = 'course'
+    name = 'udemy'
 
     @property
     def headers(self):
@@ -38,7 +38,7 @@ class CourseScraper(scrapy.Spider):
                 duration=course['content_info'],
                 image_url=course['image_304x171'],
                 description=course['headline'],
-                subscribers=course['num_subscribers'],
+                students=course['num_subscribers'],
                 instructors=[instructor['display_name'] for instructor in course['visible_instructors']],
             )
 
