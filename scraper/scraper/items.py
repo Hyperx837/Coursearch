@@ -8,10 +8,14 @@
 import scrapy
 
 
-class ScraperItem(scrapy.Item):
-    # define the fields for your item here like:
+class CourseItem(scrapy.Item):
     course_url = scrapy.Field()
-    price = scrapy.Field()
+    id = scrapy.Field()
     duration = scrapy.Field()
     image_url = scrapy.Field()
+    ratings = scrapy.Field()
+    instructors = scrapy.Field()
+    title = scrapy.Field()
+    description = scrapy.Field()
+    subscribers = scrapy.Field()
 
