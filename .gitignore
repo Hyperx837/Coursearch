@@ -10,6 +10,8 @@ db.sqlite3
 media
 secret.py
 scraper/courses.json
+scraper/courses-1.json
+scraper/courses-2.json
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
