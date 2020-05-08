@@ -9,8 +9,9 @@ import scrapy
 
 
 class CourseItem(scrapy.Item):
-    course_url = scrapy.Field()
     id = scrapy.Field()
+    course_url = scrapy.Field()
+    course_id = scrapy.Field()
     duration = scrapy.Field()
     image_url = scrapy.Field()
     ratings = scrapy.Field()

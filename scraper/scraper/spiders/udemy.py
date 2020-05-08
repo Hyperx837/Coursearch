@@ -1,3 +1,5 @@
+import uuid
+
 import scrapy
 import json
 
@@ -31,8 +33,9 @@ class CourseScraper(scrapy.Spider):
 
         for course in self.data['courses']:
             yield CourseItem(
-                id=course['id'],
+                id=uuid.uuid4(),
                 title=course['title'],
+                course_id=course['id'],
                 course_url=course['url'],
                 ratings=course['rating'],
                 duration=course['content_info'],

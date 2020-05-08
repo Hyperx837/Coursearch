@@ -16,6 +16,11 @@ NEWSPIDER_MODULE = 'scraper.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+
+MONGODB_SERVER = 'localhost'
+MONGODB_PORT = 27017
+
+MONGODB_DB = 'Courses'
 # USER_AGENT = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, '
 #               'like Gecko) Chrome/81.0.4044.113 Safari/537.36')
 
